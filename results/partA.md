@@ -10,7 +10,7 @@
 | 25 | replaced return value with "", boundary, removed conditional (true/false) ×4 | Тест дутуу | 70 → "C", 69.99 → "D" хил болон яг утгын assert. |
 | 26 | replaced return value with "", boundary, removed conditional (true/false) ×4 | Тест дутуу | 60 → "D", 59.99 → "F" хил болон яг утгын assert. |
 | 27 | replaced return value with "" | Тест дутуу | 30 болон 0 дээр "F" гэж яг assertEquals хийнэ. |
-| 36 | Changed switch default to be first case | Equivalent (сэжигтэй) | `default` нь зөвхөн `break` хийдэг, өөр case бүр нь өөрийн утгатай тул default-г эхэнд нь зөөхөд үр дүн өөрчлөгдөхгүй. B2-ийн дараах бодит PIT үр дүнгээр баталгаажуулна. |
+| 36 | Changed switch default to be first case | Тест дутуу | Equivalent гэж таамагласан боловч B2-ийн PIT-ээр killed болсон тул equivalent биш. Бүх үсэг (A, B, C, D, F) бүхий gpa тестүүд үүнийг илрүүлсэн. |
 | 38 | Replaced double addition with subtraction (case "B") | Тест дутуу | Зөвхөн "B" үсэгтэй нэг оноо бүхий gpa (85 → 3.0) тест; одоо range check тул илрэхгүй. |
 | 40 | Replaced double addition with subtraction (case "D") | Тест дутуу | Зөвхөн "D" үсэгтэй gpa (65 → 1.0) тест. |
 | 44 | replaced double return with 0.0 | Тест дутуу | gpa-ийн яг утга assertEquals(3.5, ..., delta); range check 0.0-г хүлээн зөвшөөрдөг байсан. |
